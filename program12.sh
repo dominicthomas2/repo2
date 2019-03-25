@@ -10,3 +10,4 @@ echo $c
 echo "number of special characters"
 sp=`grep -o "[!,@,#,$,%,^,&,*,-,+,/,?,;,:,(,),\",',,]" plaintext.txt | wc -l`
 echo $sp
+echo "this is to try pull operation"
